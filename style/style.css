@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --bg: #1A1E48;
+
+    --fontW: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    width: 100%;
+    height: 100%;
+    color: var(--fontW);
+    font-family: 'Roboto';
+}
+
+main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    background: rgba(26, 30, 71, 0.50);
+    backdrop-filter: blur(25px);
+}
+
+.navAnchors {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navAnchors a {
+    font-size: clamp(12px, 16px, 18px);
+}
+
+.header {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1062px;
+    height: 100vh;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titleH {
+    color: var(--fontW);
+    font-family: Roboto;
+    font-size: clamp(28px, 38px, 40px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.5px;
+}
+
+.textH {
+    width: 60%;
+}
+
+.description {
+    color: #ffffff6b;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btnH {
+    width: 220px;
+    height: 50px;
+
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    background: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(25px);
+
+    color: #ffffffe5;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

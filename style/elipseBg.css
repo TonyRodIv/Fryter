@@ -1,0 +1,35 @@
+.backLipse {
+    width: 100%;
+    /* height: 100%; */
+    position: absolute;
+    z-index: 0;
+}
+
+.elipseBg {
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.03);
+}
+
+.E1 {
+    position: relative;
+    top: -15vh;
+    left: 25vw;
+    width: 235px;
+    height: 235px;
+}
+
+.E2 {
+    position: relative;
+    top: 4vh;
+    left: -8vw;
+    width: 334px;
+    height: 334px;
+}
+
+.E3 {
+    position: relative;
+    top: -25vh;
+    left: 70vw;
+    width: 534px;
+    height: 534px;
+}
