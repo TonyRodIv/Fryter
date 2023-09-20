@@ -13,7 +13,9 @@
 }
 
 body {
-    background-color: var(--bg);
+    /* background-color: var(--bg); */
+    background-image: url(../assets/screen.png);
+    background-size: cover;
     width: 100%;
     height: 100%;
     color: var(--fontW);
@@ -21,10 +23,10 @@ body {
 }
 
 main {
-    position: absolute;
+    /* position: absolute; */
     width: 100%;
     height: 100%;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .navbar {
