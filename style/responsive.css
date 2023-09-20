@@ -1,4 +1,7 @@
 @media  screen and (max-width:800px) {
+  body{
+    background-image: url(../assets/bg/mobile.png);
+  }
     .menu{
         display: block;
     }
