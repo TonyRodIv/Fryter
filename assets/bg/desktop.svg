@@ -1,0 +1,26 @@
+<svg width="1280" height="3031" viewBox="0 0 1280 3031" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_550_100)">
+<path d="M0 0H1280V3011C1280 3022.05 1271.05 3031 1260 3031H20C8.95431 3031 0 3022.05 0 3011V0Z" fill="#1A1E48"/>
+<rect x="1083" y="-97" width="235" height="235" rx="117.5" fill="white" fill-opacity="0.03"/>
+<rect x="-125" y="246" width="334" height="334" rx="167" fill="white" fill-opacity="0.03"/>
+<rect x="-181" y="961" width="521" height="521" rx="260.5" fill="white" fill-opacity="0.03"/>
+<rect width="723" height="723" rx="361.5" transform="matrix(-1 0 0 1 1573 1806)" fill="white" fill-opacity="0.03"/>
+<rect x="188" y="622" width="235" height="235" rx="117.5" fill="white" fill-opacity="0.03"/>
+<rect width="226" height="228" rx="113" transform="matrix(-1 0 0 1 1325 2825)" fill="white" fill-opacity="0.03"/>
+<rect x="249" y="-79" width="235" height="235" rx="117.5" fill="white" fill-opacity="0.03"/>
+<rect x="444" y="1619" width="235" height="235" rx="117.5" fill="white" fill-opacity="0.03"/>
+<rect width="226" height="228" rx="113" transform="matrix(-1 0 0 1 373 1922)" fill="white" fill-opacity="0.03"/>
+<rect width="585" height="590" rx="292.5" transform="matrix(-1 0 0 1 552 2501)" fill="white" fill-opacity="0.03"/>
+<rect x="892" y="350" width="534" height="534" rx="267" fill="white" fill-opacity="0.03"/>
+</g>
+<path d="M0.5 0.5H1279.5V3011C1279.5 3021.77 1270.77 3030.5 1260 3030.5H20C9.23045 3030.5 0.5 3021.77 0.5 3011V0.5Z" stroke="url(#paint0_linear_550_100)" stroke-linejoin="round"/>
+<defs>
+<linearGradient id="paint0_linear_550_100" x1="0" y1="0" x2="1284" y2="-1.37705e-05" gradientUnits="userSpaceOnUse">
+<stop stop-color="#20244A"/>
+<stop offset="1" stop-color="#4D5079"/>
+</linearGradient>
+<clipPath id="clip0_550_100">
+<path d="M0 0H1280V3011C1280 3022.05 1271.05 3031 1260 3031H20C8.95431 3031 0 3022.05 0 3011V0Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

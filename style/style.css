@@ -14,7 +14,7 @@
 
 body {
     /* background-color: var(--bg); */
-    background-image: url(../assets/bg/desktop.png);
+    background-image: url(../assets/bg/desktop.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
