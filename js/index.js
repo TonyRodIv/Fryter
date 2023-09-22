@@ -18,10 +18,10 @@ scrollBtn.addEventListener('click', ()=> {
     let intro = document.getElementById('intro');
     let intro2 = document.getElementById('intro2');
     if(screenWidth<800){
-        console.log('mobile?')
+        console.log('mobile scroll')
         intro2.scrollIntoView({ behavior: "smooth"});
     }else{
-        console.log('pc?')
+        console.log('pc scroll'/)
         intro.scrollIntoView({ behavior: "smooth"});
     }
   });
