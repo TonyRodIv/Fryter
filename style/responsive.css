@@ -160,4 +160,7 @@
   .textH {
     width: 100%;
   }
+  .mT{
+    margin-top: -350px;
+  }
 }
