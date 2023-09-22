@@ -1,4 +1,5 @@
 let menuB = document.getElementById('burger');
+let scrollBtn = document.getElementById('scrollBtn');
 let navMobile = document.querySelector('.navbar');
 let mobileAnchors = document.querySelector('.MobileAnchors');
 
@@ -11,3 +12,15 @@ menuB.addEventListener('click', ()=>{
         mobileAnchors.style.display = 'none'
     }
 })
+scrollBtn.addEventListener('click', ()=> {
+    let screenWidth = window.innerWidth;
+    let intro = document.getElementById('intro');
+    let intro2 = document.getElementById('intro2');
+    if(screenWidth<800){
+        console.log('mobile?')
+        intro2.scrollIntoView({ behavior: "smooth"});
+    }else{
+        console.log('pc?')
+        intro.scrollIntoView({ behavior: "smooth"});
+    }
+  });
