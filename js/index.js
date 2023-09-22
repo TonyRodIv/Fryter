@@ -1,5 +1,6 @@
 let menuB = document.getElementById('burger');
-let scrollTop = document.getElementById('scrollTop');
+let scrollTop = document.querySelectorAll('.scrollTop');
+let windowTop = document.getElementById('windowTop');
 let scrollBtn = document.getElementById('scrollBtn');
 let navMobile = document.querySelector('.navbar');
 let mobileAnchors = document.querySelector('.MobileAnchors');
@@ -9,8 +10,8 @@ menuB.addEventListener('click', ()=>{
         navMobile.classList.add("mobileNav");
         mobileAnchors.style.display = 'block'
     }else{
-        navMobile.classList.remove("mobileNav")
-        mobileAnchors.style.display = 'none'
+        navMobile.classList.remove("mobileNav");
+        mobileAnchors.style.display = 'none';
     }
 })
 scrollBtn.addEventListener('click', ()=> {
@@ -25,7 +26,11 @@ scrollBtn.addEventListener('click', ()=> {
         intro.scrollIntoView({ behavior: "smooth"});
     }
   });
-
-  scrollTop.addEventListener('click',()=>{
-    window.scrollTo(0, 0, { behavior: "smooth" });
-  })
+for (const btn of scrollTop) {
+    btn.addEventListener("click", function() {
+        windowTop.scrollIntoView({ behavior: "smooth" });
+        navMobile.classList.remove("mobileNav");
+        mobileAnchors.style.display = 'none';
+        
+    });
+  }

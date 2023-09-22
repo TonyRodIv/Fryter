@@ -94,11 +94,15 @@
   font-size: 25px;
   font-weight: 600;
 }
-
+/* Gambiarra */
 .mT{
   margin-top: -180px;
 }
 
+#windowTop{
+  background-color: #1A1E48;
+}
+/* Gambiarra */
 
 @media screen and (max-width:800px) {
   body {
