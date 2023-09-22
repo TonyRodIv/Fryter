@@ -114,10 +114,6 @@
     /* justify-content: space-around; */
   }
 
-  .textH {
-    width: 100%;
-  }
-
   .titleH {
     font-size: 32px;
   }
@@ -143,6 +139,9 @@
     justify-content: center;
     flex-wrap: wrap;
   }
+  .secIntro2{
+    flex-wrap: wrap-reverse;
+  }
   .secTextH {
     width: 100%;
   }
@@ -155,5 +154,10 @@
   .secImg {
     width: 100%;
     max-width: 400px;
+  }
+}
+@media screen and (max-width:700px) {
+  .textH {
+    width: 100%;
   }
 }
