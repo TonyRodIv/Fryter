@@ -63,7 +63,7 @@
 }
 
 .mobileNav {
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   height: 100vh;
   display: flex;
@@ -139,7 +139,7 @@
   }
 
   .secIntro{
-    gap: 0px;
+    gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
   }
