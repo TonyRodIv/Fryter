@@ -54,8 +54,8 @@ main {
     width: 100%;
     height: 70px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-    background: rgba(26, 30, 71, 0.50);
-    backdrop-filter: blur(25px);
+    background: rgba(26, 30, 71, 0.616);
+    backdrop-filter: blur(50px);
     animation: aparecer 0.4s ease-in-out;
 }
 
