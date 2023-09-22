@@ -21,7 +21,7 @@ scrollBtn.addEventListener('click', ()=> {
         console.log('mobile scroll')
         intro2.scrollIntoView({ behavior: "smooth"});
     }else{
-        console.log('pc scroll'/)
+        console.log('pc scroll')
         intro.scrollIntoView({ behavior: "smooth"});
     }
   });
