@@ -1,4 +1,5 @@
 let menuB = document.getElementById('burger');
+let scrollTop = document.getElementById('scrollTop');
 let scrollBtn = document.getElementById('scrollBtn');
 let navMobile = document.querySelector('.navbar');
 let mobileAnchors = document.querySelector('.MobileAnchors');
@@ -24,3 +25,7 @@ scrollBtn.addEventListener('click', ()=> {
         intro.scrollIntoView({ behavior: "smooth"});
     }
   });
+
+  scrollTop.addEventListener('click',()=>{
+    window.scrollTo(0, 0, { behavior: "smooth" });
+  })
