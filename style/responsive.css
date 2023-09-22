@@ -95,6 +95,10 @@
   font-weight: 600;
 }
 
+.mT{
+  margin-top: -180px;
+}
+
 
 @media screen and (max-width:800px) {
   body {
@@ -159,8 +163,5 @@
 @media screen and (max-width:700px) {
   .textH {
     width: 100%;
-  }
-  .mT{
-    margin-top: -350px;
   }
 }
