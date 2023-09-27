@@ -5,6 +5,10 @@ let scrollBtn = document.getElementById('scrollBtn');
 let navMobile = document.querySelector('.navbar');
 let mobileAnchors = document.querySelector('.MobileAnchors');
 
+window.addEventListener('load', () => {
+    checkPageHome.checked = true
+    generateHome()
+});
 menuB.addEventListener('click', () => {
     if (menuB.checked) {
         navMobile.classList.add("mobileNav");
