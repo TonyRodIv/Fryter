@@ -110,7 +110,7 @@
   }
 
   .menu {
-    display: block;
+    display: flex;
   }
 
   .navAnchors {
@@ -120,6 +120,12 @@
   .navbar {
     display: flex;
     /* justify-content: space-around; */
+  }
+
+  .logoNav{
+    width: 90%;
+    display: flex;
+    justify-content: start;
   }
 
   .titleH {
