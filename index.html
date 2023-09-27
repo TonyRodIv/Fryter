@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/responsive.css">
     <link rel="stylesheet" href="./style/animation.css">
@@ -13,36 +14,45 @@
 
 <body>
     <div id="windowTop"></div>
-    <main>
-        <nav class="navbar">
-            <section>
-                <figure class="logoNav scrollTop" style="cursor: pointer;">
-                    <img src="./assets/src/LOGO FRYTER.svg" class="fryterLogo" alt="" srcset="">
-                </figure>
-                <article class="navAnchors">
-                    <a class="scrollTop">Página Inicial</a>
-                    <a>Nossa Equipe</a>
-                    <a>Documentos</a>
-                    <a href="https://www.instagram.com/projetofryter/" target="_blank">Instagram</a>
-                </article>
-                <figure class="menu">
-                    <label for="burger" class="burger">
-                        <input id="burger" type="checkbox">
-                        <span class="span1"></span>
-                        <span class="span2"></span>
-                        <span class="span3"></span>
-                    </label>
-                </figure>
-            </section>
-            <nav class="MobileAnchors">
-                <article>
-                    <a class="scrollTop">Página Inicial</a>
-                    <a>Nossa Equipe</a>
-                    <a>Documentos</a>
-                    <a href="https://www.instagram.com/projetofryter/" target="_blank">Instagram</a>
-                </article>
-            </nav>
+    <nav class="navbar">
+        <section>
+            <figure class="logoNav scrollTop" style="cursor: pointer;">
+                <img src="./assets/src/LOGO FRYTER.svg" class="fryterLogo" alt="" srcset="">
+            </figure>
+            <article class="navAnchors">
+                <label for="checkPageHome" class="pageAnchorCheck">
+                    <input type="checkbox" name="" id="checkPageHome">
+                    <a for="checkPageHome" class="scrollTop">Página Inicial</a>
+                </label>
+                <label for="checkPageTeam" class="pageAnchorCheck">
+                    <input type="checkbox" name="" id="checkPageTeam">
+                    <a for="checkPageTeam" class="">Nossa Equipe</a>
+                </label>
+                <label for="checkPageDoc" class="pageAnchorCheck">
+                    <input type="checkbox" name="" id="checkPageDoc">
+                    <a for="checkPageDoc" class="">Documentos</a>
+                </label>
+                <a href="https://www.instagram.com/projetofryter/" target="_blank" style=":hover{font-weight: bold;}">Instagram</a>
+            </article>
+            <figure class="menu">
+                <label for="burger" class="burger">
+                    <input id="burger" type="checkbox">
+                    <span class="span1"></span>
+                    <span class="span2"></span>
+                    <span class="span3"></span>
+                </label>
+            </figure>
+        </section>
+        <nav class="MobileAnchors">
+            <article>
+                <a class="scrollTop">Página Inicial</a>
+                <a>Nossa Equipe</a>
+                <a>Documentos</a>
+                <a href="https://www.instagram.com/projetofryter/" target="_blank">Instagram</a>
+            </article>
         </nav>
+    </nav>
+    <main id="mainView">
         <header class="header">
             <p class="titleH textH">Você já pensou o quanto o descarte Incorreto do óleo polui o meio ambiente?</p>
             <p class="description textH">
@@ -86,7 +96,8 @@
                     <figure class="secDescription secTextH secTextH2 secList">
                         <article class="secListItem">
                             <img src="./assets/icons/laboIco.svg" class="iconList" alt="" srcset="">
-                            <p>Investigar desafios e impactos ambientais do descarte inadequado do óleo de cozinha em estabelecimentos gastronômicos;</p>
+                            <p>Investigar desafios e impactos ambientais do descarte inadequado do óleo de cozinha em
+                                estabelecimentos gastronômicos;</p>
                         </article>
                         <article class="secListItem">
                             <img src="./assets/icons/completeListIco.svg" class="iconList" alt="" srcset="">
@@ -98,7 +109,8 @@
                         </article>
                         <article class="secListItem">
                             <img src="./assets/icons/sucessIco.svg" class="iconList" alt="" srcset="">
-                            <p>Avaliar a eficácia do Fryter em termos de decantação, armazenamento e qualidade do produto final.</p>
+                            <p>Avaliar a eficácia do Fryter em termos de decantação, armazenamento e qualidade do
+                                produto final.</p>
                         </article>
                     </figure>
                 </figure>
@@ -112,6 +124,7 @@
         </footer>
     </main>
     <script src="./js/index.js"></script>
+    <script src="./js/gerenate.js"></script>
 </body>
 
 </html>

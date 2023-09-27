@@ -92,7 +92,7 @@
   text-align: center;
   font-family: Roboto Flex;
   font-size: 25px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 /* Gambiarra */
 .mT{
@@ -146,6 +146,7 @@
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
+    width: 90%;
   }
   .secIntro2{
     flex-wrap: wrap-reverse;
@@ -184,11 +185,17 @@
     justify-content: center;
     text-align: center;
     max-width: 650px;
+    width: 90%;
   }
   .secList{
     text-align: justify;
+    gap: 25px;
   }
   .secTitleHResp{
     text-align: center;
+  }
+  .secListItem{
+    font-size: 16px;
+    line-height: 25px;
   }
 }
