@@ -101,6 +101,10 @@ main {
     font-weight: 700;
     line-height: normal;
 }
+.btnH:hover{
+    background: #21254E;
+    color: #ffffffc9;
+}
 
 .secIntro {
     margin: 0 auto;
