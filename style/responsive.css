@@ -169,3 +169,26 @@
     width: 100%;
   }
 }
+@media screen and (max-width:1050px) {
+  .imgLegend{
+    display: none;
+  }
+  .secBgImg{
+    background-image: none;
+  }
+  .secObj{
+    background: none;
+  }
+  .secIntroO{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 650px;
+  }
+  .secList{
+    text-align: justify;
+  }
+  .secTitleHResp{
+    text-align: center;
+  }
+}
