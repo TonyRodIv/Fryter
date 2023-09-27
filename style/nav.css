@@ -140,5 +140,8 @@
   .pageAnchorCheck input[type="checkbox"]:checked + a {
     font-weight: bold;
   }
+  .pageAnchorCheck input{
+    display: none;
+  }
   
 /* NavCheck */
