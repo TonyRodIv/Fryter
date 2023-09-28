@@ -180,12 +180,16 @@
   }
   .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), #1a1e485d);
+    background: linear-gradient(to left, #1a1e4800, #1a1e4828);
   }
   
   .logos:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), #1A1E485d);
+    background: linear-gradient(to right, #1a1e4800, #1a1e482a);
+  }
+  .logos-slide img {
+    height: 200px;
+    margin: 0 20px;
   }
 
 }
