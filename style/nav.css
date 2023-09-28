@@ -6,6 +6,7 @@
     background: rgba(26, 30, 71, 0.616);
     backdrop-filter: blur(50px);
     animation: aparecer 0.4s ease-in-out;
+    z-index: 5;
 }
 
 .navbar section {

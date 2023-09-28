@@ -170,11 +170,24 @@
     width: 100%;
     max-width: 400px;
   }
+  .logos {
+    margin-top: -80px;
+  }
 }
 @media screen and (max-width:700px) {
   .textH {
     width: 100%;
   }
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #1a1e485d);
+  }
+  
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #1A1E485d);
+  }
+
 }
 @media screen and (max-width:1050px) {
   .imgLegend{

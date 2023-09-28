@@ -32,7 +32,8 @@
                     <input type="checkbox" name="" id="checkPageDoc">
                     <a for="checkPageDoc" class="">Documentos</a>
                 </label>
-                <a href="https://www.instagram.com/projetofryter/" target="_blank" style=":hover{font-weight: bold;}">Instagram</a>
+                <a href="https://www.instagram.com/projetofryter/" target="_blank"
+                    style=":hover{font-weight: bold;}">Instagram</a>
             </article>
             <figure class="menu">
                 <label for="burger" class="burger">
@@ -119,6 +120,21 @@
                 </figure>
             </section>
         </section>
+        <section class="carousel">
+            <div class="logos">
+                <p class="secTitleHResp secTitleH secTextH secTextH2" style="text-align: center; margin-bottom: 20px;">Nossas ODS</p>
+                <div class="logos-slide">
+                    <img src="./assets/img/ods/ODS3.png" />
+                    <img src="./assets/img/ods/ODS6.png" />
+                    <img src="./assets/img/ods/ODS9.png" />
+                    <img src="./assets/img/ods/ODS11.png" />
+                    <img src="./assets/img/ods/ODS12.png" />
+                    <img src="./assets/img/ods/ODS13.png" />
+                    <img src="./assets/img/ods/ODS14.png" />
+                    <img src="./assets/img/ods/ODS15.png" />
+                </div>
+            </div>
+        </section>
         <footer>
 
         </footer>
@@ -143,6 +159,10 @@
     </main>
     <script src="./js/index.js"></script>
     <script src="./js/gerenate.js"></script>
+    <script>
+        var copy = document.querySelector(".logos-slide").cloneNode(true);
+        document.querySelector(".logos").appendChild(copy);
+    </script>
 </body>
 
 </html>
