@@ -270,6 +270,10 @@ main {
     gap: 15px;
 }
 
+.maps{
+    margin-top: -100px;
+}
+
 footer {
     background-color: #1a1e486e;
     backdrop-filter: blur(25px);
