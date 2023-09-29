@@ -43,6 +43,7 @@
   }
   
   .logos {
+    margin-top: 20px;
     overflow: hidden;
     padding: 10px 0;
     background: #1a1e4885;
@@ -82,5 +83,6 @@
   .logos-slide img {
     height: 200px;
     margin: 0 40px;
+    border-radius:10px;
   }
   

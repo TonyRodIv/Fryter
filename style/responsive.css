@@ -104,6 +104,44 @@
 }
 /* Gambiarra */
 
+@media screen and (max-width:1050px) {
+  .imgLegend{
+    display: none;
+  }
+  .secBgImg{
+    width: 100%;
+    background-size: auto;
+  }
+  .secIntroO{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 650px;
+    width: 90%;
+  }
+  .secList{
+    text-align: justify;
+    gap: 25px;
+  }
+  .secTitleHResp{
+    text-align: center;
+  }
+  .secListItem{
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .secObj{
+    width: 95%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    animation: showSide 0.5s ease-in-out;
+    padding-left: 20px;
+  }
+}
+
 @media screen and (max-width:800px) {
   body {
     background-image: url(../assets/bg/mobile.svg);
@@ -191,34 +229,31 @@
     height: 200px;
     margin: 0 20px;
   }
-
-}
-@media screen and (max-width:1050px) {
-  .imgLegend{
+  .secBgImg{
     display: none;
   }
-  .secBgImg{
-    background-image: none;
+  .secBgImgMobile{
+    background-image: url(../assets/bg/waterOnHand-secBg.png);
+    background-color: #1A1E48;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
   }
-  .secObj{
-    background: none;
-  }
-  .secIntroO{
+  .titleObjMobile{
+    background: linear-gradient(0deg, #1A1E48 5.51%, rgba(26, 30, 72, 0.00) 99.96%);
+
+    height: 100%;
     display: flex;
+    align-items: flex-end;
     justify-content: center;
-    text-align: center;
-    max-width: 650px;
-    width: 90%;
   }
-  .secList{
-    text-align: justify;
-    gap: 25px;
+  .DeskNone{
+    display: block;
   }
-  .secTitleHResp{
-    text-align: center;
+}
+@media screen and (max-width:500px) {
+  .mobileNone{
+    display: none;
   }
-  .secListItem{
-    font-size: 16px;
-    line-height: 25px;
-  }
+
 }
