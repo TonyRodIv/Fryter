@@ -6,8 +6,8 @@ let navMobile = document.querySelector('.navbar');
 let mobileAnchors = document.querySelector('.MobileAnchors');
 
 window.addEventListener('load', () => {
-    checkPageHome.checked = true
-    generateHome()
+    // checkPageHome.checked = true
+    generateTeam()
 });
 menuB.addEventListener('click', () => {
     if (menuB.checked) {

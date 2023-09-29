@@ -59,6 +59,23 @@ main {
     animation: showSide 0.5s ease-in-out;
 }
 
+.headerTeam {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1062px;
+    height: 100vh;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    animation: showSide 0.5s ease-in-out;
+}
+.OurTeam{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .titleH {
     color: var(--fontW);
     font-family: Roboto;
@@ -70,7 +87,8 @@ main {
 }
 
 .textH {
-    width: 60%;
+    width: 100%;
+    max-width: 600px;
 }
 
 .description {
@@ -117,6 +135,13 @@ main {
 
 .secImg {
     width: 355px;
+    border-radius: 100%;
+    border: 2px solid rgba(54, 57, 94, 0.95);
+}
+.secImgT {
+    max-width: 400px;
+    max-height: 400px;
+    width: 90%;
     border-radius: 100%;
     border: 2px solid rgba(54, 57, 94, 0.95);
 }
@@ -228,6 +253,21 @@ main {
 .secVideo iframe{
     width: 50%;
     height: 55vh;
+}
+
+.otherPages{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    margin-top: -100px;
+}
+
+.sideText{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 footer {

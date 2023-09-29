@@ -94,43 +94,51 @@
   font-size: 25px;
   /* font-weight: 600; */
 }
+
 /* Gambiarra */
-.mT{
+.mT {
   margin-top: -180px;
 }
 
-#windowTop{
+#windowTop {
   background-color: #1A1E48;
 }
+
 /* Gambiarra */
 
 @media screen and (max-width:1050px) {
-  .imgLegend{
+  .imgLegend {
     display: none;
   }
-  .secBgImg{
+
+  .secBgImg {
     background: none;
     /* width: 100%;
     background-size: auto; */
   }
-  .secObj{
+
+  .secObj {
     background: none;
   }
-  .secIntroO{
+
+  .secIntroO {
     display: flex;
     justify-content: center;
     text-align: center;
     max-width: 650px;
     width: 90%;
   }
-  .secList{
+
+  .secList {
     text-align: justify;
     gap: 25px;
   }
-  .secTitleHResp{
+
+  .secTitleHResp {
     text-align: center;
   }
-  .secListItem{
+
+  .secListItem {
     font-size: 16px;
     line-height: 25px;
   }
@@ -154,7 +162,7 @@
     /* justify-content: space-around; */
   }
 
-  .logoNav{
+  .logoNav {
     width: 90%;
     display: flex;
     justify-content: start;
@@ -180,15 +188,17 @@
     text-align: justify;
   }
 
-  .secIntro{
+  .secIntro {
     gap: 50px;
     justify-content: center;
     flex-wrap: wrap;
     width: 90%;
   }
-  .secIntro2{
+
+  .secIntro2 {
     flex-wrap: wrap-reverse;
   }
+
   .secTextH {
     width: 100%;
   }
@@ -202,42 +212,56 @@
     width: 100%;
     max-width: 400px;
   }
+
   .logos {
     margin-top: -80px;
   }
-  .secVideo iframe{
+
+  .secVideo iframe {
     width: 95%;
     height: 40vh;
+  }
+
+  .headerTeam {
+    /* flex-wrap: wrap-reverse; */
+    flex-direction: column-reverse;
+    /* margin-top: 70px; */
+  }
 }
-}
+
 @media screen and (max-width:700px) {
   .textH {
     width: 100%;
   }
+
   .logos:before {
     left: 0;
     background: linear-gradient(to left, #1a1e4800, #1a1e4828);
   }
-  
+
   .logos:after {
     right: 0;
     background: linear-gradient(to right, #1a1e4800, #1a1e482a);
   }
+
   .logos-slide img {
     height: 200px;
     margin: 0 20px;
   }
-  .secBgImg{
+
+  .secBgImg {
     display: none;
   }
-  .secBgImgMobile{
+
+  .secBgImgMobile {
     background-image: url(../assets/bg/waterOnHand-secBg.png);
     background-color: #1A1E48;
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
   }
-  .titleObjMobile{
+
+  .titleObjMobile {
     background: linear-gradient(0deg, #1A1E48 5.51%, rgba(26, 30, 72, 0.00) 99.96%);
 
     height: 100%;
@@ -245,17 +269,20 @@
     align-items: flex-end;
     justify-content: center;
   }
-  .DeskNone{
+
+  .DeskNone {
     display: block;
   }
-  .secObj{
+
+  .secObj {
     min-height: 350px;
     padding: 10px 0px;
     background: linear-gradient(0deg, rgba(26, 30, 72, 0.00) 0.3%, #1A1E48 20.67%);
   }
 }
+
 @media screen and (max-width:500px) {
-  .mobileNone{
+  .mobileNone {
     display: none;
   }
 

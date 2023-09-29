@@ -7,29 +7,26 @@ const checkPageDoc = document.getElementById('checkPageDoc');
 let pageAnchorCheck = document.querySelectorAll('.pageAnchorCheck')
 
 window.addEventListener('load', () => {
-    checkPageHome.checked = true
+    // checkPageHome.checked = true
 });
 
 checkPageHome.addEventListener('click', () => {
     console.log('Home')
-    checkPageDoc.checked = false
-    checkPageTeam.checked = false
     generateHome()
 })
 checkPageTeam.addEventListener('click', () => {
     console.log('Team')
-    checkPageDoc.checked = false
-    checkPageHome.checked = false
     generateTeam()
 })
 checkPageDoc.addEventListener('click', () => {
     console.log('Doc')
-    checkPageHome.checked = false
-    checkPageTeam.checked = false
     generateDoc()
 })
 
 function generateHome() {
+    checkPageHome.checked = true
+    checkPageDoc.checked = false
+    checkPageTeam.checked = false
     mainViewHome.style.display = 'flex'
     mainViewTeam.style.display = 'none'
     mainViewDoc.style.display = 'none'
@@ -38,6 +35,9 @@ function generateHome() {
     menuB.checked = false;
 }
 function generateTeam() {
+    checkPageTeam.checked = true
+    checkPageDoc.checked = false
+    checkPageHome.checked = false
     mainViewTeam.style.display = 'flex'
     mainViewHome.style.display = 'none'
     mainViewDoc.style.display = 'none'
@@ -46,6 +46,9 @@ function generateTeam() {
     menuB.checked = false;
 }
 function generateDoc() {
+    checkPageDoc.checked = true
+    checkPageHome.checked = false
+    checkPageTeam.checked = false
     mainViewDoc.style.display = 'flex'
     mainViewTeam.style.display = 'none'
     mainViewHome.style.display = 'none'
@@ -53,7 +56,3 @@ function generateDoc() {
     mobileAnchors.style.display = 'none';
     menuB.checked = false;
 }
-
-
-
-
