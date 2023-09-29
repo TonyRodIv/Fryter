@@ -33,6 +33,7 @@ function generateHome() {
     navMobile.classList.remove("mobileNav");
     mobileAnchors.style.display = 'none';
     menuB.checked = false;
+    windowTop.scrollIntoView({ behavior: "smooth" });
 }
 function generateTeam() {
     checkPageTeam.checked = true
@@ -44,6 +45,7 @@ function generateTeam() {
     navMobile.classList.remove("mobileNav");
     mobileAnchors.style.display = 'none';
     menuB.checked = false;
+    windowTop.scrollIntoView({ behavior: "smooth" });
 }
 function generateDoc() {
     checkPageDoc.checked = true
@@ -55,4 +57,5 @@ function generateDoc() {
     navMobile.classList.remove("mobileNav");
     mobileAnchors.style.display = 'none';
     menuB.checked = false;
+    windowTop.scrollIntoView({ behavior: "smooth" });
 }
