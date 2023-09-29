@@ -175,7 +175,7 @@ main {
 .secList{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 .secListItem{
@@ -218,6 +218,10 @@ main {
 
 .DeskNone{
     display: none;
+}
+.hrLI{
+    width: 100%;
+    border: 0.3px solid rgba(255, 255, 255, 0.212);
 }
 
 footer {
