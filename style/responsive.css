@@ -109,8 +109,12 @@
     display: none;
   }
   .secBgImg{
-    width: 100%;
-    background-size: auto;
+    background: none;
+    /* width: 100%;
+    background-size: auto; */
+  }
+  .secObj{
+    background: none;
   }
   .secIntroO{
     display: flex;
@@ -129,16 +133,6 @@
   .secListItem{
     font-size: 16px;
     line-height: 25px;
-  }
-  .secObj{
-    width: 95%;
-    max-width: 600px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 80px;
-    animation: showSide 0.5s ease-in-out;
-    padding-left: 20px;
   }
 }
 
