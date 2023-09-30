@@ -281,9 +281,14 @@
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:550px) {
   .mobileNone {
     display: none;
   }
+  .card {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+}
 
 }

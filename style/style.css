@@ -71,7 +71,8 @@ main {
     align-items: center;
     animation: showSide 0.5s ease-in-out;
 }
-.OurTeam{
+
+.OurTeam {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
@@ -120,7 +121,8 @@ main {
     font-weight: 700;
     line-height: normal;
 }
-.btnH:hover{
+
+.btnH:hover {
     background: #21254E;
     color: #ffffffc9;
 }
@@ -141,6 +143,7 @@ main {
     border-radius: 100%;
     border: 2px solid rgba(54, 57, 94, 0.95);
 }
+
 .secImgT {
     max-width: 400px;
     max-height: 400px;
@@ -200,28 +203,29 @@ main {
     background: linear-gradient(90deg, #1A1E48 45.39%, rgba(26, 30, 72, 0.00) 99.85%);
 }
 
-.secList{
+.secList {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.secListItem{
+.secListItem {
     display: grid;
     grid-template-columns: 50px 1fr;
     align-items: center;
 }
 
-.secTextList{
+.secTextList {
     max-width: 700px;
 }
 
-.imgLegend{
+.imgLegend {
     display: flex;
     align-items: flex-end;
     padding: 25px;
 }
-.secIntroO{
+
+.secIntroO {
     margin: 0 auto;
     width: 95%;
     max-width: 1062px;
@@ -230,35 +234,38 @@ main {
     gap: 50px;
     animation: showSide 0.5s ease-in-out;
 }
-.carousel{
+
+.carousel {
     margin-top: -50px;
 }
-.secODSDesc{
+
+.secODSDesc {
     margin: 0 auto;
     width: 95%;
     max-width: 900px;
     text-align: justify;
 }
 
-.btnODS{
+.btnODS {
     margin: 0 auto;
 }
 
-.DeskNone{
+.DeskNone {
     display: none;
 }
 
-.secVideo{
+.secVideo {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.secVideo iframe{
+
+.secVideo iframe {
     width: 50%;
     height: 55vh;
 }
 
-.otherPages{
+.otherPages {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -267,14 +274,64 @@ main {
     margin-top: -100px;
 }
 
-.sideText{
+.sideText {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.maps{
+.maps {
     margin-top: -100px;
+}
+
+.benefects{
+    margin-top: -100px;
+}
+.cardsBene {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.card {
+    width: 90%;
+    max-width: 263.529px;
+    height: 320px;
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.07);
+    background: #21254D;
+    box-shadow: 2px 4px 50px 0px #1F234B;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.textsCards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.titleCard {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.descCard {
+    color: #ffffff6b;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.5px;
 }
 
 footer {
