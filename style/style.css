@@ -309,6 +309,20 @@ main {
     justify-content: center;
     gap: 15px;
 }
+.cardList {
+    width: 100%;
+    /* max-width: 300px; */
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.07);
+    background: #21254D;
+    box-shadow: 2px 4px 50px 0px #1F234B;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
 .textsCards{
     display: flex;
     flex-direction: column;
